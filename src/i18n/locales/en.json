@@ -1,0 +1,111 @@
+{
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Zerofy – Zero Guilt, 100% Nutrition",
+    "subtitle": "Fuel your day with nutritional goodness and zero guilt.",
+    "button": "Explore Products",
+    "learnMore": "Learn More",
+    "rating": "4.9/5 Rating",
+    "customers": "10K+ Happy Customers",
+    "natural": "100% Natural"
+  },
+  "products": {
+    "title": "Our Premium Products",
+    "subtitle": "Discover our range of healthy, guilt-free snacks crafted with love and nutrition.",
+    "peanutButter": {
+      "name": "Premium Peanut Butter",
+      "description": "Rich, creamy peanut butter made from 100% roasted peanuts and nothing else. Packed with plant protein, fiber, and heart-healthy fats for long-lasting energy."
+    },
+    "makhana": {
+      "name": "Crunchy Makhana",
+      "description": "Light, crunchy fox nuts that are naturally gluten-free and low in fat, yet loaded with protein, fiber, and essential minerals like calcium and magnesium."
+    },
+    "shopNow": "Shop Now",
+    "premium": "Premium",
+    "specialOffer": "Special Launch Offer!",
+    "specialOfferDesc": "Get 20% off on your first order. Limited time offer for health-conscious snackers.",
+    "orderNow": "Order Now",
+    "whereToBuy": "Available on Your Favorite Platforms"
+  },
+  "about": {
+    "title": "About Zerofy Foods",
+    "content": "Zerofy Foods LLP is a dynamic health-focused food company committed to delivering clean, wholesome, and indulgence-free snacking options. Rooted in the philosophy of 'Zero Guilt, 100% Nutrition,' we offer thoughtfully curated and minimally processed snacks for modern consumers who seek both taste and health.",
+    "mission": "Our Mission",
+    "missionContent": "To revolutionize the snacking industry by creating products that fuel your body without compromising on taste or nutrition. We believe in transparency, quality, and the power of natural ingredients.",
+    "tagline": "Crafting healthy snacks that fuel your body and satisfy your taste buds without compromise.",
+    "story": {
+      "title": "Our Story",
+      "content1": "Zerofy was born from a simple but powerful belief — good food begins with great ingredients. In a world where most 'healthy' snacks are either over-processed or over-marketed, we felt something essential was missing: purity.",
+      "content2": "A bunch of us — friends, food lovers, and fitness chasers — kept asking the same question: Why is it so hard to find simple, high-quality ingredients you can trust with your eyes closed?",
+      "content3": "We believe that when you start with the right ingredients, clean eating becomes easy. Zerofy is our effort to make foundational foods cleaner, more transparent, and accessible — because your everyday choices shouldn't be a compromise."
+    },
+    "whyZerofy": {
+      "title": "Why Choose Zerofy?"
+    },
+    "values": {
+      "pure": {
+        "title": "Only What's Needed",
+        "content": "100% pure and unprocessed ingredients sourced directly from farmers. No preservatives, no chemicals, no shortcuts."
+      },
+      "transparent": {
+        "title": "Zero Junk, Total Transparency",
+        "content": "No hidden sugars, emulsifiers, or flavoring agents. What you see is what you eat - clean, authentic food you can trust."
+      },
+      "health": {
+        "title": "Foundational Health",
+        "content": "Core diet essentials that nourish your body with functional nutrition that fuels your day, not slows you down."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "testimonial1": {
+        "content": "Zerofy Peanut Butter is my morning essential. It's guilt-free and actually tasty!",
+        "author": "Aditi",
+        "role": "Yoga Coach"
+      },
+      "testimonial2": {
+        "content": "I used to binge chips. Now it's Zerofy Makhana every evening — I don't miss the fried stuff at all.",
+        "author": "Rahul",
+        "role": "Startup Founder"
+      },
+      "testimonial3": {
+        "content": "Finally found products I can trust — pure, aromatic, and no shady ingredients.",
+        "author": "Sneha",
+        "role": "Home Chef"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We love hearing from our Zerofy community! Whether you have questions, feedback, or want to share your healthy snacking stories, feel free to reach out.",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email Address",
+    "messageLabel": "Your Message",
+    "sendMessage": "Send Message",
+    "email": "contact@zerofyfoods.in",
+    "address": "G-18/23, Sector-11, Rohini, Delhi - 110085",
+    "social": "@TheZerofy"
+  },
+  "footer": {
+    "tagline": "Zerofy — Your Healthy Snacking Companion",
+    "copyright": "© 2025 Zerofy Foods Pvt. Ltd. | All Rights Reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "returnPolicy": "Return Policy",
+    "shippingInfo": "Shipping Info",
+    "madeInIndia": "Made with ❤️ in India"
+  },
+  "features": {
+    "highProtein": "High Protein",
+    "lowCalorie": "Low Calorie",
+    "noPreservatives": "No Preservatives",
+    "naturalIngredients": "Natural Ingredients",
+    "glutenFree": "Gluten Free",
+    "veganFriendly": "Vegan Friendly"
+  }
+}

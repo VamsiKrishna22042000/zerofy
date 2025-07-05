@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  outline: none!important;
+}
+
+/* Dark theme enhancements */
+.dark {
+  background-image: linear-gradient(to bottom, rgba(245, 161, 108, 0.03) 1px, transparent 1px),
+                   linear-gradient(to right, rgba(245, 161, 108, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Alternate section backgrounds with light brown accents */
+.dark section:nth-child(odd) {
+  background: linear-gradient(to bottom right, rgba(78, 53, 42, 0.7), rgba(94, 64, 50, 0.7));
+  border-top: 1px solid rgba(249, 196, 152, 0.15);
+  border-bottom: 1px solid rgba(249, 196, 152, 0.15);
+}
+
+.dark section:nth-child(even) {
+  background: linear-gradient(to bottom left, rgba(78, 53, 42, 0.4), rgba(94, 64, 50, 0.4));
+  border-top: 1px solid rgba(249, 196, 152, 0.08);
+  border-bottom: 1px solid rgba(249, 196, 152, 0.08);
+}
+
+/* Card and container styling */
+.dark .bg-chocolate-800 {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #5e4032, #4e352a);
+  border: 1px solid rgba(249, 196, 152, 0.15);
+}
+
+.dark .bg-chocolate-900 {
+  background: linear-gradient(to bottom, #4e352a, #3d2a21);
+  border: 1px solid rgba(249, 196, 152, 0.1);
+}
+
+/* Light brown accents for cards and containers */
+.dark .rounded-xl,
+.dark .rounded-2xl,
+.dark .shadow-lg,
+.dark .shadow-md {
+  border: 1px solid rgba(249, 196, 152, 0.15) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.1), 0 0 15px rgba(241, 133, 72, 0.08) !important;
+}
+
+/* Peanut color accents for headings */
+.dark h1, .dark h2, .dark h3 {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  color: #f9c498 !important;
+}
+
+.dark h2::after, .dark h3::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, rgba(249, 196, 152, 0.2), rgba(241, 133, 72, 0.6), rgba(249, 196, 152, 0.2));
+  border-radius: 3px;
+}
+
+/* Button and interactive element enhancements */
+.dark button, 
+.dark a[role="button"] {
+  box-shadow: 0 0 15px rgba(249, 196, 152, 0.15);
+  border: 1px solid rgba(249, 196, 152, 0.2);
+}
+
+/* Enhance text colors */
+.dark .text-peanut-100 {
+  color: #fef0e1 !important;
+}
+
+.dark .text-peanut-200 {
+  color: #fcddc2 !important;
+}
+
+.dark .text-peanut-300 {
+  color: #f9c498 !important;
+}
+
+.dark .text-peanut-400 {
+  color: #f5a16c !important;
+}
+
+/* Base font size adjustments */
+@layer base {
+  html {
+    font-size: 17px;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  p {
+    @apply text-lg md:text-xl;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap");
+
+/* Font Classes */
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-telugu {
+  font-family: "Noto Sans Telugu", sans-serif;
+}
+
+.font-hindi {
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+.font-caveat {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.font-crispy {
+  font-family: "Poppins", "Nunito", "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-peanut-100 dark:bg-chocolate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-peanut-300 dark:bg-chocolate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-peanut-400 dark:bg-chocolate-500;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+@keyframes bounce-gentle {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite 3s;
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 4s ease-in-out infinite;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #f18548;
+  outline-offset: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background-color: #f18548;
+  color: white;
+}
+
+/* Dark mode transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* Decorative elements */
+.peanut-decoration {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f5a16c' fill-opacity='0.1'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Crispy text effects */
+.text-crispy {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.text-crispy-bold {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+}
