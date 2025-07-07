@@ -68,10 +68,10 @@ export const About: React.FC = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-6 text-crispy-bold ${getFontClass()}`}>
+            <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-6 text-inter-bold ${getFontClass()}`}>
               {t('about.title')}
             </h2>
-            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-8 leading-relaxed text-crispy ${getFontClass()}`}>
+            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-8 leading-relaxed text-inter ${getFontClass()}`}>
               {t('about.content')}
             </p>
             
@@ -96,10 +96,10 @@ export const About: React.FC = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.6, duration: 0.6 }}
                 >
-                  <h3 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-2 text-crispy-bold ${getFontClass()}`}>
+                  <h3 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-2 text-inter-bold ${getFontClass()}`}>
                     {t('about.mission')}
                   </h3>
-                  <p className={`text-chocolate-600 dark:text-peanut-300 text-crispy ${getFontClass()}`}>
+                  <p className={`text-chocolate-600 dark:text-peanut-300 text-inter ${getFontClass()}`}>
                     {t('about.missionContent')}
                   </p>
                 </motion.div>
@@ -139,7 +139,7 @@ export const About: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6, duration: 0.6 }}
-                  className={`text-2xl font-bold mb-4 text-crispy-bold ${getFontClass()}`}
+                  className={`text-2xl font-bold mb-4 text-inter-bold ${getFontClass()}`}
                 >
                   Zero Guilt, 100% Nutrition
                 </motion.h3>
@@ -147,7 +147,7 @@ export const About: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.8, duration: 0.6 }}
-                  className={`text-peanut-100 text-crispy ${getFontClass()}`}
+                  className={`text-peanut-100 text-inter ${getFontClass()}`}
                 >
                   {t('about.tagline')}
                 </motion.p>
@@ -196,17 +196,17 @@ export const About: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-8 text-crispy-bold ${getFontClass()}`}>
+          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-8 text-inter-bold ${getFontClass()}`}>
             {t('about.story.title')}
           </h3>
           <div className="max-w-4xl mx-auto">
-            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-6 leading-relaxed text-crispy ${getFontClass()}`}>
+            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-6 leading-relaxed text-inter ${getFontClass()}`}>
               {t('about.story.content1')}
             </p>
-            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-6 leading-relaxed text-crispy ${getFontClass()}`}>
+            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 mb-6 leading-relaxed text-inter ${getFontClass()}`}>
               {t('about.story.content2')}
             </p>
-            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 leading-relaxed text-crispy ${getFontClass()}`}>
+            <p className={`text-lg text-chocolate-600 dark:text-peanut-300 leading-relaxed text-inter ${getFontClass()}`}>
               {t('about.story.content3')}
             </p>
           </div>
@@ -220,7 +220,7 @@ export const About: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-12 text-center text-crispy-bold ${getFontClass()}`}>
+          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-12 text-center text-inter-bold ${getFontClass()}`}>
             {t('about.whyZerofy.title')}
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
@@ -242,10 +242,10 @@ export const About: React.FC = () => {
                 >
                   <value.icon className="w-8 h-8 text-peanut-600" />
                 </motion.div>
-                <h4 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-3 text-crispy-bold ${getFontClass()}`}>
+                <h4 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-3 text-inter-bold ${getFontClass()}`}>
                   {t(value.titleKey)}
                 </h4>
-                <p className={`text-chocolate-600 dark:text-peanut-300 text-crispy ${getFontClass()}`}>
+                <p className={`text-chocolate-600 dark:text-peanut-300 text-inter ${getFontClass()}`}>
                   {t(value.contentKey)}
                 </p>
               </motion.div>
@@ -261,7 +261,7 @@ export const About: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-12 text-crispy-bold ${getFontClass()}`}>
+          <h3 className={`text-2xl sm:text-3xl font-bold text-chocolate-900 dark:text-peanut-100 mb-12 text-inter-bold ${getFontClass()}`}>
             {t('about.testimonials.title')}
           </h3>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -301,13 +301,13 @@ export const About: React.FC = () => {
                     ))}
                   </div>
                 </div>
-                <p className={`text-chocolate-600 dark:text-peanut-300 mb-4 italic text-crispy ${getFontClass()}`}>
+                <p className={`text-chocolate-600 dark:text-peanut-300 mb-4 italic text-inter ${getFontClass()}`}>
                   "{t(`about.testimonials.testimonial${testimonial}.content`)}"
                 </p>
-                <p className={`font-bold text-chocolate-900 dark:text-peanut-100 text-crispy-bold ${getFontClass()}`}>
+                <p className={`font-bold text-chocolate-900 dark:text-peanut-100 text-inter-bold ${getFontClass()}`}>
                   {t(`about.testimonials.testimonial${testimonial}.author`)}
                 </p>
-                <p className={`text-sm text-chocolate-500 dark:text-peanut-400 text-crispy ${getFontClass()}`}>
+                <p className={`text-sm text-chocolate-500 dark:text-peanut-400 text-inter ${getFontClass()}`}>
                   {t(`about.testimonials.testimonial${testimonial}.role`)}
                 </p>
               </motion.div>

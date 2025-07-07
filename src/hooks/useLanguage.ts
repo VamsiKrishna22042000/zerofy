@@ -25,9 +25,9 @@ export const useLanguage = () => {
       case 'hi':
         return 'font-hindi';
       case 'en':
-        return 'font-caveat';
+        return 'font-inter';
       default:
-        return 'font-crispy';
+        return 'font-inter';
     }
   };
 

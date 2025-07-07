@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -117,11 +119,9 @@
   }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap");
-
 /* Font Classes */
 .font-inter {
-  font-family: "Inter", sans-serif;
+  font-family: "Baloo 2", sans-serif;
 }
 
 .font-telugu {
@@ -129,23 +129,9 @@
 }
 
 .font-hindi {
-  font-family: "Noto Sans Devanagari", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
-.font-caveat {
-  font-family: "Caveat", cursive;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-}
-
-.font-crispy {
-  font-family: "Poppins", "Nunito", "Inter", sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.025em;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 /* Smooth scrolling */
 html {
@@ -240,13 +226,13 @@ html {
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f5a16c' fill-opacity='0.1'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-/* Crispy text effects */
-.text-crispy {
+/* inter text effects */
+.text-inter {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   font-weight: 600;
 }
 
-.text-crispy-bold {
+.text-inter-bold {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
 }

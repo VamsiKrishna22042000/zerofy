@@ -22,7 +22,7 @@ export const LanguageToggle: React.FC = () => {
         aria-label="Change language"
       >
         <Globe className="w-5 h-5 text-chocolate-700 dark:text-peanut-300" />
-        <span className="text-base font-medium text-chocolate-700 dark:text-peanut-300 font-caveat">
+        <span className="text-base font-medium text-chocolate-700 dark:text-peanut-300 font-inter">
           {languages.find((lang) => lang.code === currentLanguage)?.nativeName}
         </span>
       </motion.button>
@@ -50,7 +50,7 @@ export const LanguageToggle: React.FC = () => {
                     : ""
                 }`}
               >
-                <span className="text-base font-medium font-caveat">
+                <span className="text-base font-medium font-inter">
                   {language.nativeName}
                 </span>
               </motion.button>

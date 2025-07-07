@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
             className="flex items-center gap-3 cursor-pointer" 
             onClick={() => scrollToSection('home')}
           >
-            <span className="text-3xl md:text-4xl font-extrabold text-chocolate-700 dark:text-peanut-200 font-caveat tracking-tight select-none">
+            <span className="text-3xl md:text-4xl font-extrabold text-chocolate-700 dark:text-peanut-200 font-inter tracking-tight select-none">
   Zerofy
 </span>
           </motion.div>

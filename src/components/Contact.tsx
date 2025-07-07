@@ -102,10 +102,10 @@ export const Contact: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-crispy-bold ${getFontClass()}`}>
+          <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-inter-bold ${getFontClass()}`}>
             {t('contact.title')}
           </h2>
-          <p className={`text-lg text-chocolate-600 dark:text-peanut-300 max-w-2xl mx-auto text-crispy ${getFontClass()}`}>
+          <p className={`text-lg text-chocolate-600 dark:text-peanut-300 max-w-2xl mx-auto text-inter ${getFontClass()}`}>
             {t('contact.subtitle')}
           </p>
         </motion.div>
@@ -140,10 +140,10 @@ export const Contact: React.FC = () => {
                   <item.icon className="w-6 h-6 text-peanut-600" />
                 </motion.div>
                 <div>
-                  <h3 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-2 text-crispy-bold ${getFontClass()}`}>
+                  <h3 className={`text-xl font-bold text-chocolate-900 dark:text-peanut-100 mb-2 text-inter-bold ${getFontClass()}`}>
                     {item.title}
                   </h3>
-                  <p className={`text-chocolate-600 dark:text-peanut-300 text-crispy ${getFontClass()}`}>
+                  <p className={`text-chocolate-600 dark:text-peanut-300 text-inter ${getFontClass()}`}>
                     {item.content}
                   </p>
                   {item.title === 'Social Media' && (
@@ -188,7 +188,7 @@ export const Contact: React.FC = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index, duration: 0.6 }}
                 >
-                  <label htmlFor={field.name} className={`block text-sm font-semibold text-chocolate-700 dark:text-peanut-300 mb-2 text-crispy ${getFontClass()}`}>
+                  <label htmlFor={field.name} className={`block text-sm font-semibold text-chocolate-700 dark:text-peanut-300 mb-2 text-inter ${getFontClass()}`}>
                     {field.label}
                   </label>
                   <motion.input
@@ -209,7 +209,7 @@ export const Contact: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
               >
-                <label htmlFor="message" className={`block text-sm font-semibold text-chocolate-700 dark:text-peanut-300 mb-2 text-crispy ${getFontClass()}`}>
+                <label htmlFor="message" className={`block text-sm font-semibold text-chocolate-700 dark:text-peanut-300 mb-2 text-inter ${getFontClass()}`}>
                   {t('contact.messageLabel')}
                 </label>
                 <motion.textarea
@@ -232,7 +232,7 @@ export const Contact: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-peanut-600 hover:bg-peanut-700 disabled:bg-peanut-400 text-white rounded-lg font-bold transition-all duration-300 text-crispy ${getFontClass()}`}
+                className={`w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-peanut-600 hover:bg-peanut-700 disabled:bg-peanut-400 text-white rounded-lg font-bold transition-all duration-300 text-inter ${getFontClass()}`}
               >
                 {isSubmitting ? (
                   <>

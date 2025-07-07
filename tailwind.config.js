@@ -5,11 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
+        'inter': ['Play', 'sans-serif'],
         'telugu': ['Noto Sans Telugu', 'sans-serif'],
-        'hindi': ['Noto Sans Devanagari', 'sans-serif'],
-        'crispy': ['Poppins', 'Nunito', 'Inter', 'sans-serif'],
-        'caveat': ['Caveat', 'cursive'],
+        'hindi': ['Rajdhani', 'sans-serif'],
       },
       colors: {
         primary: {

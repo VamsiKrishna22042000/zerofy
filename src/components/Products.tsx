@@ -108,10 +108,10 @@ export const Products: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-crispy-bold ${getFontClass()}`}>
+          <h2 className={`text-3xl sm:text-4xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-inter-bold ${getFontClass()}`}>
             {t('products.title')}
           </h2>
-          <p className={`text-lg text-chocolate-600 dark:text-peanut-300 max-w-2xl mx-auto text-crispy ${getFontClass()}`}>
+          <p className={`text-lg text-chocolate-600 dark:text-peanut-300 max-w-2xl mx-auto text-inter ${getFontClass()}`}>
             {t('products.subtitle')}
           </p>
         </motion.div>
@@ -190,7 +190,7 @@ export const Products: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
-                  className={`text-2xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-crispy-bold ${getFontClass()}`}
+                  className={`text-2xl font-bold text-chocolate-900 dark:text-peanut-100 mb-4 text-inter-bold ${getFontClass()}`}
                 >
                   {t(product.nameKey)}
                 </motion.h3>
@@ -199,7 +199,7 @@ export const Products: React.FC = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 + index * 0.1, duration: 0.6 }}
-                  className={`text-chocolate-600 dark:text-peanut-300 mb-4 leading-relaxed text-crispy ${getFontClass()}`}
+                  className={`text-chocolate-600 dark:text-peanut-300 mb-4 leading-relaxed text-inter ${getFontClass()}`}
                 >
                   {t(product.descriptionKey)}
                 </motion.p>
@@ -220,7 +220,7 @@ export const Products: React.FC = () => {
                       className="flex items-center gap-2 mb-2"
                     >
                       <Shield className="w-4 h-4 text-peanut-600" />
-                      <span className={`text-sm text-chocolate-600 dark:text-peanut-300 text-crispy ${getFontClass()}`}>
+                      <span className={`text-sm text-chocolate-600 dark:text-peanut-300 text-inter ${getFontClass()}`}>
                         {benefit}
                       </span>
                     </motion.div>
@@ -239,7 +239,7 @@ export const Products: React.FC = () => {
                       initial={{ opacity: 0, scale: 0.8 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.6 + featureIndex * 0.05, duration: 0.4 }}
-                      className={`px-3 py-1 bg-peanut-100 dark:bg-chocolate-700 text-peanut-700 dark:text-peanut-300 rounded-full text-sm font-semibold text-crispy ${getFontClass()}`}
+                      className={`px-3 py-1 bg-peanut-100 dark:bg-chocolate-700 text-peanut-700 dark:text-peanut-300 rounded-full text-sm font-semibold text-inter ${getFontClass()}`}
                     >
                       {t(feature)}
                     </motion.span>
@@ -256,7 +256,7 @@ export const Products: React.FC = () => {
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     transition={{ delay: 0.8 + index * 0.1, type: "spring", stiffness: 200 }}
-                    className="text-2xl font-bold text-peanut-600 text-crispy-bold"
+                    className="text-2xl font-bold text-peanut-600 text-inter-bold"
                   >
                     {product.price}
                   </motion.div>
@@ -264,7 +264,7 @@ export const Products: React.FC = () => {
                     whileHover={{ scale: 1.05, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => scrollToSection('contact')}
-                    className={`inline-flex items-center gap-2 px-6 py-3 bg-peanut-600 hover:bg-peanut-700 text-white rounded-full font-bold transition-all duration-300 hover:shadow-lg text-crispy ${getFontClass()}`}
+                    className={`inline-flex items-center gap-2 px-6 py-3 bg-peanut-600 hover:bg-peanut-700 text-white rounded-full font-bold transition-all duration-300 hover:shadow-lg text-inter ${getFontClass()}`}
                   >
                     <ShoppingCart className="w-4 h-4" />
                     {t('products.shopNow')}
@@ -283,7 +283,7 @@ export const Products: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16 px-4"
         >
-          <h3 className={`text-2xl font-bold text-chocolate-900 dark:text-peanut-100 mb-8 text-crispy-bold ${getFontClass()}`}>
+          <h3 className={`text-2xl font-bold text-chocolate-900 dark:text-peanut-100 mb-8 text-inter-bold ${getFontClass()}`}>
             {t('products.whereToBuy')}
           </h3>
           <motion.div 
@@ -333,7 +333,7 @@ export const Products: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className={`text-2xl font-bold mb-4 text-crispy-bold ${getFontClass()}`}
+              className={`text-2xl font-bold mb-4 text-inter-bold ${getFontClass()}`}
             >
               {t('products.specialOffer')}
             </motion.h3>
@@ -341,7 +341,7 @@ export const Products: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.6 }}
-              className={`text-peanut-100 mb-6 text-crispy ${getFontClass()}`}
+              className={`text-peanut-100 mb-6 text-inter ${getFontClass()}`}
             >
               {t('products.specialOfferDesc')}
             </motion.p>
@@ -352,7 +352,7 @@ export const Products: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ delay: 0.9, duration: 0.6 }}
               onClick={() => scrollToSection('contact')}
-              className={`inline-flex items-center gap-2 px-8 py-4 bg-white text-peanut-600 rounded-full font-bold text-lg transition-all duration-300 hover:shadow-lg text-crispy ${getFontClass()}`}
+              className={`inline-flex items-center gap-2 px-8 py-4 bg-white text-peanut-600 rounded-full font-bold text-lg transition-all duration-300 hover:shadow-lg text-inter ${getFontClass()}`}
             >
               {t('products.orderNow')}
               <ShoppingCart className="w-5 h-5" />

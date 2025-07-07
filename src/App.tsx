@@ -17,7 +17,7 @@ function App() {
   }, [theme]);
 
   return (
-    <div className="min-h-screen bg-peanut-50 dark:bg-gradient-to-b dark:from-chocolate-900 dark:via-chocolate-800 dark:to-chocolate-900 transition-colors font-crispy dark:border-l-4 dark:border-r-4 dark:border-peanut-300/20">
+    <div className="min-h-screen bg-peanut-50 dark:bg-gradient-to-b dark:from-chocolate-900 dark:via-chocolate-800 dark:to-chocolate-900 transition-colors font-inter dark:border-l-4 dark:border-r-4 dark:border-peanut-300/20">
       <Header />
       <main>
         <Hero />
